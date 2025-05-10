@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>De Bees Bites – Delicious Fast Food</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('de_bees_bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: rgb(247, 243, 11);
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+    }
+
+    header img {
+      height: 70px;
+      margin-right: 20px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      color: #f1c40f;
+    }
+
+    .hero {
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+      margin-top: 80px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 12px;
+      margin-top: 30px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px 10px 0 0;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      color: white;
+      background-color: #f1c40f;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #d4af37;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+    }
+
+    .menu-item h4 {
+      font-size: 22px;
+    }
+    
+    .menu-item p {
+      font-size: 16px;
+    }
+
+    .menu-item .price {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #f1c40f;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 20px;
+      }
+
+      header img {
+        height: 50px;
+      }
+
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      .section h3 {
+        font-size: 22px;
+      }
+
+      .menu-item h4 {
+        font-size: 18px;
+      }
+
+      .menu-item p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="the bees logo.png" alt="the Bees Logo.png" />
+    <h1>De Bees Bites</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Delicious Fast Food, Served with a Smile</h2>
+  </section>
+
+  <div class="container">
+
+    <section class="section">
+      <h3>Our Menu</h3>
+      <div class="menu-item">
+        <div>
+          <h4>Burger Delight</h4>
+          <p>Juicy beef patty, fresh lettuce, tomatoes, and our secret sauce.</p>
+        </div>
+        <div class="price">Le 25,000</div>
+      </div>
+
+      <div class="menu-item">
+        <div>
+          <h4>Chicken Wings</h4>
+          <p>Crispy fried chicken wings served with tangy dipping sauce.</p>
+        </div>
+        <div class="price">Le 20,000</div>
+      </div>
+
+      <div class="menu-item">
+        <div>
+          <h4>Fries Supreme</h4>
+          <p>Crispy, golden fries, sprinkled with our special seasoning.</p>
+        </div>
+        <div class="price">Le 10,000</div>
+      </div>
+
+      <div class="menu-item">
+        <div>
+          <h4>Milkshake</h4>
+          <p>Rich, creamy milkshake with your choice of vanilla, chocolate, or strawberry.</p>
+        </div>
+        <div class="price">Le 15,000</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Order Now</h3>
+      <div class="buttons">
+        <a href="https://www.facebook.com/debeesbites" target="_blank">Follow on Facebook</a>
+        <a href="https://www.instagram.com/debeesbites_" target="_blank">Follow on Instagram</a>
+        <a href="https://zobaze.shop" target="_blank">Order Online</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Find Us</h3>
+      <p>Visit us at: 37 Circular Rd, Freetown, Sierra Leone.</p>
+      <p>Call us: +23290779977</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 De Bees Bites. All rights reserved. <br> Visit our <a href="https://www.tripadvisor.com/Restaurant_Review-g298437-d10259455-Reviews-De_Bees_Bites-Freetown_Western_Area.html" target="_blank">TripAdvisor Page</a></p>
+  </footer>
+
+  <script>
+    // Additional JavaScript or interactive features can be added here
+    console.log("Welcome to De Bees Bites!");
+  </script>
+  <!-- Order Summary Section -->
+<section class="section">
+    <h3>Order Summary</h3>
+    <div id="order-summary">
+      <p>No items in your cart yet.</p>
+    </div>
+    <div class="buttons">
+      <button onclick="checkout()">Checkout</button>
+    </div>
+  </section>
+  
+  <!-- JavaScript for Cart Functionality -->
+  <script>
+    let cart = [];
+  
+    function addToCart(item, price) {
+      cart.push({ item, price });
+      updateCart();
+    }
+  
+    function updateCart() {
+      const cartDiv = document.getElementById("order-summary");
+      if (cart.length === 0) {
+        cartDiv.innerHTML = "<p>No items in your cart yet.</p>";
+      } else {
+        let cartItems = cart.map((item, index) => {
+          return `<p>${item.item} - Le ${item.price}</p>`;
+        }).join('');
+        cartDiv.innerHTML = cartItems + `<p>Total: Le ${getTotal()}</p>`;
+      }
+    }
+  
+    function getTotal() {
+      return cart.reduce((total, item) => total + item.price, 0);
+    }
+  
+    function checkout() {
+      if (cart.length === 0) {
+        alert("Please add items to your cart before checking out.");
+      } else {
+        alert("Proceeding to checkout!");
+      }
+    }
+  
+    // Example: Add items to the cart
+    addToCart("Burger Delight", 25000);
+    addToCart("Milkshake", 15000);
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>De Bees Bites – Delicious Fast Food</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('de_bees_bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f7f30b;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: rgba(0, 0, 0, 0.85);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    header h1 {
+      color: #f1c40f;
+      font-size: 28px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #f1c40f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+      margin-top: 80px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.75);
+      border-radius: 12px;
+      color: #fff;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #f1c40f;
+    }
+
+    .section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+    }
+
+    .menu-item h4 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .menu-item p {
+      font-size: 16px;
+    }
+
+    .menu-item .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffe135;
+    }
+
+    .menu-item button {
+      background-color: #f1c40f;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 20px;
+    }
+
+    .menu-item button:hover {
+      background-color: #d4af37;
+    }
+
+    .buttons a, .buttons button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px 10px 0 0;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      color: white;
+      background-color: #f1c40f;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover, .buttons button:hover {
+      background-color: #d4af37;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.85);
+      color: white;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #f1c40f;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    #map {
+      margin-top: 20px;
+      width: 100%;
+      height: 300px;
+      background-color: #222;
+      border: 2px solid #f1c40f;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 300px;
+      color: #f1c40f;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 20px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      .section h3 {
+        font-size: 22px;
+      }
+
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .menu-item .price,
+      .menu-item button {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="the_bees_logo.png" alt="De Bees Bites Logo" />
+    <h1>De Bees Bites</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Delicious Fast Food, Served with a Smile</h2>
+  </section>
+
+  <div class="container" id="app">
+    <!-- Menu Section -->
+    <section class="section" id="menu">
+      <h3>Our Menu</h3>
+      <div class="menu-item" v-for="item in menu" :key="item.name">
+        <div>
+          <h4>{{ item.name }}</h4>
+          <p>{{ item.description }}</p>
+        </div>
+        <div>
+          <div class="price">Le {{ item.price.toLocaleString() }}</div>
+          <button @click="addToCart(item)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Summary -->
+    <section class="section" id="order">
+      <h3>Order Summary</h3>
+      <div v-if="cart.length === 0">
+        <p>No items in your cart yet.</p>
+      </div>
+      <div v-else>
+        <ul>
+          <li v-for="(item, index) in cart" :key="index">{{ item.name }} - Le {{ item.price.toLocaleString() }}</li>
+        </ul>
+        <p><strong>Total:</strong> Le {{ totalPrice.toLocaleString() }}</p>
+      </div>
+      <div class="buttons">
+        <button @click="checkout">Checkout</button>
+      </div>
+    </section>
+
+    <!-- Social & Online -->
+    <section class="section">
+      <h3>Order Now</h3>
+      <div class="buttons">
+        <a href="https://www.facebook.com/debeesbites" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/debeesbites_" target="_blank">Instagram</a>
+        <a href="https://zobaze.shop" target="_blank">Order Online</a>
+      </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="section" id="contact">
+      <h3>Find Us</h3>
+      <p>37 Circular Rd, Freetown, Sierra Leone</p>
+      <p>Call us: +23290779977</p>
+      <p>Open Daily: 10:00 AM – 10:00 PM</p>
+      <div id="map">Google Map Coming Soon</div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 De Bees Bites. All rights reserved.<br>
+    Visit our <a href="https://www.tripadvisor.com/Restaurant_Review-g298437-d10259455-Reviews-De_Bees_Bites-Freetown_Western_Area.html" target="_blank">TripAdvisor Page</a></p>
+  </footer>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        menu: [
+          { name: "Burger Delight", description: "Juicy beef patty with fresh veggies and secret sauce.", price: 25000
+
+  </script>
+  
+
+</body>
+</html>
